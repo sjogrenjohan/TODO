@@ -1,0 +1,48 @@
+#main {
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columnLeft {
+    width: 20%;
+    order: 1;
+    flex-grow: 0;
+}
+
+.columnCenter {
+    width: 20%;
+    order: 2;
+    flex-grow: 4;
+}
+
+.columnRight {
+    width: 20%;
+    order: 3;
+    flex-grow: 0.72;
+}
+
+
+
+.headLineOne {
+    color: red;
+}
+
+.wrongLogin {
+    color: white;
+}
+
+.card {
+    visibility: hidden;
+}
+
+.whiteText {
+    letter-spacing: 2.5px;
+}
+
+.todaysDate {
+    float: right;   
+}
+
